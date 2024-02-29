@@ -1,0 +1,56 @@
+/* Write your CSS here */
+
+.bg-container {
+  background-image: linear-gradient(to right, #fa7257, #fc63a7, #dd1264);
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: #fddddb;
+  font-size: 50px;
+  font-family: Roboto;
+  font-weight: 600;
+}
+
+.name-btn-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+button {
+  color: #dd1264;
+  border-radius: 8px;
+  padding: 13px;
+  font-size: 20px;
+  font-family: Roboto;
+  font-weight: 400;
+}
+
+.contain {
+  margin-right: 250px;
+}
+
+.name-container {
+  height: 150px;
+  width: 250px;
+  background-color: #fddddb;
+  border-radius: 10px;
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.name {
+  font-size: 30px;
+  font-family: Roboto;
+  font-weight: 400;
+}
